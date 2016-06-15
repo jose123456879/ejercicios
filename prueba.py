@@ -1,8 +1,3 @@
 from maximo import maximo
-opc="si"
-lista=[]
-while opc=="si":
-	n=int(input("ingrese: "))
-	lista.append(n)
-	opc=input("desea continuar? ")
+lista=[54, 20, 30, 100]
 print(maximo(lista))	
